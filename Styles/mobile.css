@@ -245,6 +245,15 @@
     /* end experience */
 }
 
+@media screen and (max-width: 600px){
+    /* PROJET */
+    .img-projet{
+        width: 320px;
+        height: 200px;
+    }
+}
+
+
 @media screen and (max-width: 561px) {
     #projects #iselection ul.desc {
         height: 150px;
