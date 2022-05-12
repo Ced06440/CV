@@ -251,6 +251,9 @@
         width: 320px;
         height: 200px;
     }
+    .img-projet:hover{
+        filter: none;
+    }
 }
 
 
