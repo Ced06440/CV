@@ -254,6 +254,9 @@
     .img-projet:hover{
         filter: none;
     }
+    .item-projet {
+        margin-left: 0px;
+        margin-top: 25px;
 }
 
 
