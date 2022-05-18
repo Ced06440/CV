@@ -540,7 +540,7 @@ button#cv {
 }
 
 .item-projet:hover .content-projet {
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 .item-projet .text {
@@ -551,6 +551,7 @@ button#cv {
     transition: all 300ms ease-out;
     transform: translateY(3px);
     -webkit-transform: translateY(3px);
+    margin-top: -20px;
 }
 
 .item-projet .title {
