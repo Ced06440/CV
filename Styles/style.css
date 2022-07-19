@@ -626,6 +626,11 @@ button#cv {
     line-height: 23px;
 }
 
+.jobs ul{
+    list-style: none;
+    margin-top: -20px;
+    font-weight: bold;
+}
 
 /* end contact */
 
