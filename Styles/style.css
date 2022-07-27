@@ -245,7 +245,7 @@ header {
 
 .img-container:hover .img-overlay {
     opacity: 1;
-  }
+}
 
 .box2 {
     vertical-align: top;
@@ -508,8 +508,8 @@ button#cv {
 }
 
 .item-projet img{
-    width: 400px;
-    height: 300px;
+    width: 350px;
+    height: 250px;
 }
 
 .item-projet {
@@ -573,15 +573,22 @@ button#cv {
     font-weight: bold;
 }
 
+#projet li{
+    list-style: none;   
+}
+
+
+
 /*END PROJET*/
 
 /* CONTACT */
 #contact{
     color: black;
+    margin-top: -120px;
 }
 .contact-subtitle {
     text-align: center;
-    margin: 10px 0px 70px;
+    margin: -50px;
     line-height: 50px;
 }
 
@@ -626,9 +633,9 @@ button#cv {
     line-height: 23px;
 }
 
-.jobs ul{
+.jobs ul li{
     list-style: none;
-    margin-top: -20px;
+    margin-top: -25px;
     font-weight: bold;
 }
 

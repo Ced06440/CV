@@ -3,7 +3,7 @@
         background-attachment: scroll;
     }
 }
-  
+
 @media screen and (max-width: 1023px) {
     h1 {
         font-size: 1.6em;
@@ -140,16 +140,30 @@
 
 
     /* CONTACT */
+    #projet{
+        margin-top: 30px;
+    }
     .contact-subtitle {
         line-height: 1.5em;
+        margin: 30px;
     }
 
     .contact-subtitle .jobs {
         margin-top: 2em;
     }
-  
+
     .item.contact-box.meet p {
         font-size: 0.8em;
+    }
+
+    #projet li{
+        list-style: none;   
+    }
+
+    .jobs ul li{
+        list-style: none;
+        margin-top: 10px;
+        font-weight: bold;
     }
     /* end contact */
 }
@@ -222,23 +236,23 @@
     #timeline .event .left {
         display: none;
     }
-  
+
     #timeline .event .right {
         margin-left: 0px;
     }
-  
+
     #timeline .event .right::before {
         display: none;
     }
-  
+
     #timeline .event .right .date {
         display: block;
     }
-  
+
     #timeline .event h3 {
         padding-bottom: 0px;
     }
-  
+
     #timeline .event .place {
         padding-bottom: 15px;
     }
@@ -248,7 +262,7 @@
 @media screen and (max-width: 600px){
     /* PROJET */
     .img-projet{
-        width: 320px;
+        width: 200px;
         height: 200px;
     }
     .img-projet:hover{
@@ -257,6 +271,7 @@
     .item-projet {
         margin-left: 0px;
         margin-top: 25px;
+}
 }
 
 
